@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Premium.PremiumItem">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:fontFamily="@font/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subscription"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="178dp">
+
+        <ImageView
+            android:layout_width="202dp"
+            android:layout_height="129dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/premium" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:fontFamily="@font/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose a Plan for after your        7 day free trial"
+        android:textSize="22dp"
+        android:layout_margin="25dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/generate"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="30dp"
+            app:cardElevation="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_alignParentBottom="true"
+            app:cardCornerRadius="20dp"
+            app:cardBackgroundColor="#0195FF"
+            android:layout_marginTop="80dp"
+            android:layout_marginRight="30dp">
+
+            <TextView
+                android:fontFamily="@font/button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Try 7 days Free"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:textAlignment="center"
+                android:gravity="center"/>
+
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+    </LinearLayout>
+
+</FrameLayout>
