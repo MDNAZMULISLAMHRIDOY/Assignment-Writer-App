@@ -19,7 +19,7 @@
 
 ## 📱 Screenshots
 
-| Login Screen | Donors List | WebView |
+| Login Screen | Home Page | WebView |
 |--------------|------------|---------|
 | ![Login](https://github.com/MDNAZMULISLAMHRIDOY/Assignment-Writer-App/raw/master/app/src/main/res/drawable/Screenshot%202025-10-07%20092806.png) | ![Donors](https://github.com/MDNAZMULISLAMHRIDOY/Assignment-Writer-App/raw/master/app/src/main/res/drawable/Screenshot%202025-10-07%20092817.png) | ![WebView](https://github.com/MDNAZMULISLAMHRIDOY/Assignment-Writer-App/raw/master/app/src/main/res/drawable/Screenshot%202025-10-07%20092749.png) |
 
